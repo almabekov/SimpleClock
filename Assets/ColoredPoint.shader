@@ -40,7 +40,7 @@
 			o.Metallic = _Metallic;
 			o.Smoothness = _Glossiness;
 			o.Alpha = 1;
-			o.Albedo.rg = IN.worldPos.xy*0.5f+0.5f;
+			o.Albedo.rgb = IN.worldPos.xyz*0.5f+0.5f;
 		}
 		ENDCG
 	}
